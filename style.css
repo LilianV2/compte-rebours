@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yu Gothic UI";
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: #c1c1c1;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #762828;
+}
+
+#timer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: #846d63;
+    width: 50vw;
+    height: 20vh;
+    border-radius: 500px 200px 500px 200px;
+    box-shadow: 5px 5px 150px 45px #6f5151;
+}
+
+#timer p {
+    text-align: center;
+    line-height: 5vh;
+}
+
+#addH {
+    background-color: #9b5656;
+    border: none;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 30px;
+    z-index: 1;
+    transition: width, height;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#addH:hover {
+    width: 14vw;
+    height: 7vh;
+}
+
+#addM {
+    background-color: #9b5656;
+    border: none;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 30px;
+    z-index: 1;
+    transition: width, height;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#addM:hover {
+    width: 14vw;
+    height: 7vh;
+}
+
+#addS {
+    background-color: #9b5656;
+    border: none;
+    width: 13vw;
+    height: 6vh;
+    border-radius: 30px;
+    z-index: 1;
+    transition: width, height;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#addS:hover {
+    width: 14vw;
+    height: 7vh;
+}
+
+#reset {
+    background-color: #6f5555;
+    border: none;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 30px;
+    z-index: 1;
+    transition: background-color;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #00a500;
+}
+
+#play {
+    background-color: #6f5555;
+    border: none;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 30px;
+    z-index: 1;
+    transition: background-color;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#play:hover {
+    background-color: #1a77d1;
+}
+
+#stop {
+    background-color: #6f5555;
+    border: none;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 30px;
+    z-index: 1;
+    transition: background-color;
+    transition-duration: 150ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+#stop:hover {
+    background-color: #ea0a0a;
+}
+
